@@ -1,0 +1,87 @@
+[
+  {
+    "product_id": 1392,
+    "product_name": "GitHub",
+    "product_logo": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_8ec3c17e3fb1df25b6a8bd7cc69cf2d1/github.png",
+    "g2_link": "https://www.g2.com/products/github/reviews",
+    "what_is": "GitHub is where the world builds software...",
+    "product_description": "GitHub is the best place to share code...",
+    "positioning_against_competitor": "GitHub delivers everything best-in-class organizations need...",
+    "reviews": 2035,
+    "rating": 4.7,
+    "company_id": null,
+    "seller": "GitHub",
+    "company_phone": null,
+    "company_location": "San Francisco, CA",
+    "company_founded_year": 2008,
+    "company_annual_revenue": null,
+    "company_ownership": null,
+    "discussions_link": null,
+    "supported_languages": null,
+    "twitter": "https://twitter.com/github",
+    "number_of_followers_on_twitter": 2543277,
+    "linkedin": "https://www.linkedin.com/company/1418841/",
+    "number_of_employees_on_linkedin": 5346,
+    "product_website": "https://github.com/features",
+    "company_website": "http://github.com",
+    "is_claimed": true,
+    "categories": [
+      {
+        "category_name": "Bug Tracking",
+        "category_link": "https://www.g2.com/categories/bug-tracking"
+      },
+      {
+        "category_name": "DevOps Platforms",
+        "category_link": "https://www.g2.com/categories/devops-platforms"
+      }
+    ],
+    "screenshots": [
+      "https://images.g2crowd.com/uploads/attachment/file/193446/1.png"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=URmeTqglS58"
+    ],
+    "download_links": [],
+    "pricing_plans": [
+      {
+        "plan_name": "Free",
+        "plan_description": "Basics for teams and developers",
+        "plan_features": [
+          "Unlimited repositories",
+          "Community Support"
+        ]
+      }
+    ],
+    "alternatives": [
+      {
+        "competitor_name": "GitLab",
+        "competitor_link": "https://www.g2.com/products/gitlab/reviews",
+        "competitor_rating": 4.5,
+        "competitor_reviews": 781
+      }
+    ],
+    "comparisons": [
+      {
+        "link": "https://www.g2.com/compare/github-vs-gitlab",
+        "competitor_name": "GitLab"
+      }
+    ],
+    "star_distribution": {
+      "1": 4,
+      "2": 3,
+      "3": 24,
+      "4": 301,
+      "5": 1703
+    },
+    "g2_reviews_link": "https://www.g2.com/products/github/reviews#reviews",
+    "initial_reviews": [
+      {
+        "review_id": 8975571,
+        "review_title": "Collaborations on project development using GitHub",
+        "review_rating": 5,
+        "publish_date": "2023-12-06",
+        "review_link": "https://www.g2.com/products/github/reviews/github-review-8975571"
+      }
+    ]
+  }
+]
