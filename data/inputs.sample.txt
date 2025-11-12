@@ -1,0 +1,2 @@
+# One URL or local HTML path per line.
+# You may put a local HTML file path to test offline, e.g.:
