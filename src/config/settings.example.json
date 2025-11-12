@@ -1,0 +1,4 @@
+{
+  "delay_seconds": 1.0,
+  "notes": "Copy to settings.json to override defaults. Provide proxies via environment if needed (HTTP(S)_PROXY)."
+}
