@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "G2 Product Record",
+  "type": "object",
+  "required": [
+    "product_name",
+    "g2_link",
+    "categories",
+    "pricing_plans",
+    "alternatives",
+    "comparisons",
+    "star_distribution",
+    "initial_reviews"
+  ],
+  "properties": {
+    "product_id": { "type": ["integer", "null"] },
+    "product_name": { "type": ["string", "null"] },
+    "product_logo": { "type": ["string", "null"] },
+    "g2_link": { "type": ["string", "null"] },
+    "what_is": { "type": ["string", "null"] },
+    "product_description": { "type": ["string", "null"] },
+    "positioning_against_competitor": { "type": ["string", "null"] },
+    "reviews": { "type": ["integer", "null"] },
+    "rating": { "type": ["number", "null"] },
+    "company_id": { "type": ["integer", "null"] },
+    "seller": { "type": ["string", "null"] },
+    "company_phone": { "type": ["string", "null"] },
+    "company_location": { "type": ["string", "null"] },
+    "company_founded_year": { "type": ["integer", "null"] },
+    "company_annual_revenue": { "type": ["string", "null"] },
+    "company_ownership": { "type": ["string", "null"] },
+    "discussions_link": { "type": ["string", "null"] },
+    "supported_languages": { "type": ["string", "null"] },
+    "twitter": { "type": ["string", "null"] },
+    "number_of_followers_on_twitter": { "type": ["integer", "null"] },
+    "linkedin": { "type": ["string", "null"] },
+    "number_of_employees_on_linkedin": { "type": ["integer", "null"] },
+    "product_website": { "type": ["string", "null"] },
+    "company_website": { "type": ["string", "null"] },
+    "is_claimed": { "type": ["boolean", "null"] },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["category_name", "category_link"],
+        "properties": {
+          "category_name": { "type": ["string", "null"] },
+          "category_link": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "screenshots": { "type": "array", "items": { "type": "string" } },
+    "videos": { "type": "array", "items": { "type": "string" } },
+    "download_links": { "type": "array", "items": { "type": "string" } },
+    "pricing_plans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["plan_name", "plan_description", "plan_features"],
+        "properties": {
+          "plan_name": { "type": ["string", "null"] },
+          "plan_description": { "type": ["string", "null"] },
+          "plan_features": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["competitor_name", "competitor_link", "competitor_rating", "competitor_reviews"],
+        "properties": {
+          "competitor_name": { "type": ["string", "null"] },
+          "competitor_link": { "type": ["string", "null"] },
+          "competitor_rating": { "type": ["number", "null"] },
+          "competitor_reviews": { "type": ["integer", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "comparisons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["link", "competitor_name"],
+        "properties": {
+          "link": { "type": ["string", "null"] },
+          "competitor_name": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "star_distribution": {
+      "type": "object",
+      "properties": {
+        "1": { "type": "integer" },
+        "2": { "type": "integer" },
+        "3": { "type": "integer" },
+        "4": { "type": "integer" },
+        "5": { "type": "integer" }
+      },
+      "required": ["1", "2", "3", "4", "5"],
+      "additionalProperties": false
+    },
+    "g2_reviews_link": { "type": ["string", "null"] },
+    "initial_reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["review_id", "review_title", "review_rating", "publish_date", "review_link"],
+        "properties": {
+          "review_id": { "type": ["integer", "string", "null"] },
+          "review_title": { "type": ["string", "null"] },
+          "review_rating": { "type": ["number", "null"] },
+          "publish_date": { "type": ["string", "null"] },
+          "review_link": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
